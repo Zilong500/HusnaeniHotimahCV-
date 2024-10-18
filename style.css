@@ -1,0 +1,73 @@
+@mediaimport url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/paper.png'); /* Add a paper texture */
+    color: #050404;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border: 2px solid #76b7e3;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #767676;
+}
+
+.tagline {
+    font-style: italic
+    color: #666;
+}
+
+.contact-info, .section, .skills, .experience, .education {
+    margin-bottom: 15px;
+}
+
+h2 {
+    background-color: #76b7e3;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h3, h4 {
+    color: #76b7e3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background: #f0f9f0;
+    margin: 5px 0;
+    padding: 5px;
+    border-left: 5px solid #76b7e3;
+    border-radius: 3px;
+}
+
+p {
+    margin: 5px 0 10px;
+}
